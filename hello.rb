@@ -1,5 +1,9 @@
 require 'sinatra'
 
 get '/' do
-  "Hello World!"
+  erb :index
+end
+
+get '/london' do
+  erb :london
 end
